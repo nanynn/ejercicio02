@@ -232,8 +232,8 @@ var arrNombres =[
 ];
 
 arrNombres.forEach(function (element) {
-  document.write("<b>" + element.name + "</b>" + "<br>" + "Dirección: "+element.address.street+ "<br>" +
-  "Apartamento: "+ element.address.suite + "<br>" + "Ciudad: "+ element.address.city +"<br>" + "Código postal: "+ element.address.zipcode +"<br>"+"<br>");
+  document.write("<div><b>" + element.name + "</b>" + "<br>" + "Dirección: "+element.address.street+ "<br>" +
+  "Apartamento: "+ element.address.suite + "<br>" + "Ciudad: "+ element.address.city +"<br>" + "Código postal: "+ element.address.zipcode +"<br>"+"<br> </div>");
 })
 
 
